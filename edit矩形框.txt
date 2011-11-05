@@ -1,0 +1,12 @@
+确定编辑框大小
+  宽：6*Fontwidth
+  高: Fontheight
+  left, top: cursor.x cursor.y
+  如果right>m_rect.right m_rect.right - 宽
+  如果bottom>m_rect.bottom m_rect.bottom - 高
+
+GetCaretPos
+获得creat
+  x = 0 增加Fontheight
+  x >= rectMax.right 发送enter
+  x+3*fontwidth > rectMax.width rectMax.width x+3*fontwidth
